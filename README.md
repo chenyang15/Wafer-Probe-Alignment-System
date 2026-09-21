@@ -1,5 +1,3 @@
-
-https://github.com/user-attachments/assets/eeb5f33c-036d-46b8-8a2d-75d7421b320b
 # Vision-Guided Automated Probe Alignment System for Wafer-Level Testing
 
 A low-cost (~$200 USD), fully integrated system that automates micron-scale alignment between tungsten microprobes and semiconductor bond pads for wafer-level electrical testing — built as a Final Year Project in Robotics & Mechatronics Engineering at Monash University Malaysia, and awarded **Best FYP Report** by the department.
@@ -115,26 +113,42 @@ Each probe assembly is a two-motorised-axis carriage — a lateral axis to step 
 <div align="center">
   
   <img src="images/yolo_livedetection.gif" alt="Live YOLOv11 bond pad detection demo" width="100%">
+
+</div>
+
+<p align="center">
   
   https://github.com/user-attachments/assets/2e65f433-c4e1-4870-8737-4bd043e61879
-  
-</div>
+
+</p>
+
 
 ### Device positioning & centering
 <div align="center">
   
   <img src="images/device_positioning.gif" alt="Device centering demo" width="100%">
+
+</div>
+
+<p align="center">
   
   https://github.com/user-attachments/assets/fc8239ff-43dc-4b65-8022-78ce584394f2
 
-</div>
+</p>
 
 ### Automated Probe Positioning
 <div align="center">
   
   <img src="images/probe_positioning.gif" alt="Automated probe positioning demo" width="100%">
+
   
 </div>
+
+<p align="center">
+
+  https://github.com/user-attachments/assets/283223e4-f84b-474d-8864-223d71bc67b3
+
+</p>
 
 
 ## Results at a glance
