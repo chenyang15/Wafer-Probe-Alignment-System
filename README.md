@@ -58,7 +58,7 @@ Bond pads on the test wafer ranged from clean to heavily damaged and oxidised. A
 Live detection during a scan, with bounding boxes drawn over every detected pad:
 
 <div align="center">
-  <img src="images/fig_detection.png" alt="Live YOLOv11 bounding box detection of bond pads" width="90%">
+  <img src="images/fig_detection.png" alt="Live YOLOv11 bounding box detection of bond pads" width="95%">
 </div>
 
 This robustness is what took full pipeline recovery to 100% across 30 repeated scans, recovering all 144 pads and all 24 device centres every time.
