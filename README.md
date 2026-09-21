@@ -1,3 +1,7 @@
+<img width="426" height="240" alt="device_positioning" src="https://github.com/user-attachments/assets/564f1dfa-1d53-46ce-aa9d-41e2844bdc76" />
+
+
+
 # Vision-Guided Automated Probe Alignment System for Wafer-Level Testing
 
 A low-cost (~$200 USD), fully integrated system that automates micron-scale alignment between tungsten microprobes and semiconductor bond pads for wafer-level electrical testing — built as a Final Year Project in Robotics & Mechatronics Engineering at Monash University Malaysia, and awarded **Best FYP Report** by the department.
@@ -101,3 +105,5 @@ Four subsystems, coordinated over USB serial:
 Supervised by Dr. Patrick Ho, Department of Electrical and Computer Systems Engineering
 
 Project was Awarded Best FYP Report for Department of Robotics & Mechatronics Engineering
+
+
