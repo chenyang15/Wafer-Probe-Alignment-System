@@ -41,7 +41,7 @@ Four subsystems, coordinated over USB serial:
 The host runs a PySide6 desktop application that manages the live camera feed, orchestrates scans, and runs YOLO inference — the same interface used to trigger scans, review the wafer minimap, and send the stage to any detected device.
 
 <p align="center">
-  <img src="images/fig_emptyui.png" alt="Desktop UI before a scan, empty camera feed" height="450">
+  <img src="images/fig_emptyui.png" alt="Desktop UI before a scan, empty camera feed" height="75%">
 </p>
 
 ## Bond Pad Detection (YOLOv11)
