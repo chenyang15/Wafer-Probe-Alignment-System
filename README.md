@@ -1,3 +1,5 @@
+
+https://github.com/user-attachments/assets/eeb5f33c-036d-46b8-8a2d-75d7421b320b
 # Vision-Guided Automated Probe Alignment System for Wafer-Level Testing
 
 A low-cost (~$200 USD), fully integrated system that automates micron-scale alignment between tungsten microprobes and semiconductor bond pads for wafer-level electrical testing — built as a Final Year Project in Robotics & Mechatronics Engineering at Monash University Malaysia, and awarded **Best FYP Report** by the department.
@@ -41,8 +43,7 @@ Four subsystems, coordinated over USB serial:
 The host runs a PySide6 desktop application that manages the live camera feed, orchestrates scans, and runs YOLO inference — the same interface used to trigger scans, review the wafer minimap, and send the stage to any detected device.
 
 <p align="center">
-  <img src="images/fig_emptyui.png" alt="Desktop UI before a scan, empty camera feed" height="250">
-  <img src="images/fig_ui.png" alt="Desktop UI with a wafer visible in the live camera feed" height="250">
+  <img src="images/fig_emptyui.png" alt="Desktop UI before a scan, empty camera feed" height="450">
 </p>
 
 ## Bond Pad Detection (YOLOv11)
@@ -98,8 +99,8 @@ A three-stage correction chain closes that gap, taking the stage from a rough sc
 Two probe assemblies are mounted symmetrically on the stage base, one per crossbar bus line. The left probe steps along and lands on the right column of bond pads, while the right probe steps along and lands on the top row:
 
 <p align="center">
-  <img src="images/fig_leftprobe_illustration.png" alt="Left microprobe probing the right column of bond pads" height="300">
-  <img src="images/fig_rightprobe_illustration.png" alt="Right microprobe probing the top row of bond pads" height="300">
+  <img src="images/fig_leftprobe_illustration.png" alt="Left microprobe probing the right column of bond pads" height="265">
+  <img src="images/fig_rightprobe_illustration.png" alt="Right microprobe probing the top row of bond pads" height="275">
 </p>
 
 Each probe assembly is a two-motorised-axis carriage — a lateral axis to step between pad positions, and a Z-axis to lower the needle onto the pad for contact. Image below shows the assembly of one side of the probe assembly.
@@ -133,11 +134,7 @@ Each probe assembly is a two-motorised-axis carriage — a lateral axis to step 
   
   <img src="images/probe_positioning.gif" alt="Automated probe positioning demo" width="100%">
   
-  https://github.com/user-attachments/assets/ce87baaf-8c63-4567-9562-2c0651a2f403
-
 </div>
-
-
 
 
 ## Results at a glance
@@ -164,4 +161,4 @@ Each probe assembly is a two-motorised-axis carriage — a lateral axis to step 
 **Ghui Chen Yang** — Robotics & Mechatronics Engineering, Monash University Malaysia
 Supervised by Dr. Patrick Ho, Department of Electrical and Computer Systems Engineering
 
-This project was Awarded Best FYP Report for the Department of Robotics & Mechatronics Engineering
+This project was Awarded Best FYP Report for the Department of Robotics & Mechatronics Engineering.
