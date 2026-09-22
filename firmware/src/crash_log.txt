@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "c:\Users\cy\Desktop\Monash_Engineering\FYP\firmware\wafer_stage_ui_v12.py", line 989, in main
+    w=MainWindow(); w.show(); sys.exit(app.exec())
+      ^^^^^^^^^^^^
+  File "c:\Users\cy\Desktop\Monash_Engineering\FYP\firmware\wafer_stage_ui_v12.py", line 884, in __init__
+    self.cp=ControlPanel(self.pico, self)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\cy\Desktop\Monash_Engineering\FYP\firmware\wafer_stage_ui_v12.py", line 463, in __init__
+    self.homing_done.connect(self._home_done)   # cross-thread safe
+                             ^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute '_home_done'. Did you mean: 'homing_done'?
